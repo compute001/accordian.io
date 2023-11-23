@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>accordion</title>
+    <!-- <style>
+      .container-accordion {
+        display: flex;
+      }
+      .categories {
+        width: 30%;
+      }
+
+      .active-category {
+        background-color: blue;
+      }
+    </style> -->
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>contact</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Blog</li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container-accordion">
+      <div class="categories section-left">
+        <a href="#general"><h3 class="active category">General</h3></a>
+        <a href="#orders"><h3 class="category">Orders</h3></a>
+        <a href="#shipping"><h3 class="category">Shipping</h3></a>
+        <a href="#returns"><h3 class="category">Returns</h3></a>
+      </div>
+      <section class="questions section-right">
+        <!-- title -->
+        <div class="title">
+          <h2>General questions</h2>
+        </div>
+        <!-- questions -->
+        <div class="">
+          <!-- single question -->
+          <article class="question qsect1" id="general">
+            <!-- question title -->
+            <div class="question-title">
+              <p>What is Material?</p>
+              <button type="button" class="question-btn">
+                <span class="plus-icon">
+                  <i class="far fa-plus-square" data-name="gener"></i>
+                </span>
+                <span class="minus-icon">
+                  <i class="far fa-minus-square"></i>
+                </span>
+              </button>
+            </div>
+            <!-- question text -->
+            <div class="question-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+                dolore illo dolores quia nemo doloribus quaerat, magni numquam
+                repellat reprehenderit.
+              </p>
+            </div>
+          </article>
+          <!-- end of single question -->
+          <!-- single question -->
+          <article class="question qsect1">
+            <!-- question title -->
+            <div class="question-title">
+              <p>How can I contact Material?</p>
+              <button type="button" class="question-btn">
+                <span class="plus-icon">
+                  <i class="far fa-plus-square" data-name="gener"></i>
+                </span>
+                <span class="minus-icon">
+                  <i class="far fa-minus-square"></i>
+                </span>
+              </button>
+            </div>
+            <!-- question text -->
+            <div class="question-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+                dolore illo dolores quia nemo doloribus quaerat, magni numquam
+                repellat reprehenderit.
+              </p>
+            </div>
+          </article>
+          <!-- end of single question -->
+          <!-- single question -->
+          <article class="question qsect1">
+            <!-- question title -->
+            <div class="question-title">
+              <p>Where can I purchase Material products?</p>
+              <!-- button -->
+              <button type="button" class="question-btn">
+                <span class="plus-icon">
+                  <i class="far fa-plus-square" data-name="gener"></i>
+                </span>
+                <span class="minus-icon">
+                  <i class="far fa-minus-square"></i>
+                </span>
+              </button>
+            </div>
+            <!-- question text -->
+            <div class="question-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+                dolore illo dolores quia nemo doloribus quaerat, magni numquam
+                repellat reprehenderit.
+              </p>
+            </div>
+          </article>
+          <!-- end of single question -->
+
+          <!-- NEXT SECTION -->
+          <!-- title -->
+          <div class="title">
+            <h2>Orders</h2>
+          </div>
+          <!-- single question -->
+          <article class="question qsect2" id="orders">
+            <!-- question title -->
+            <div class="question-title">
+              <p>How can I track my order?</p>
+              <!-- button -->
+              <button type="button" class="question-btn">
+                <span class="plus-icon">
+                  <i class="far fa-plus-square" data-name="order"></i>
+                </span>
+                <span class="minus-icon">
+                  <i class="far fa-minus-square"></i>
+                </span>
+              </button>
+            </div>
+            <!-- question text -->
+            <div class="question-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+                dolore illo dolores quia nemo doloribus quaerat, magni numquam
+                repellat reprehenderit.
+              </p>
+            </div>
+          </article>
+          <!-- end of single question -->
+          <!-- single question -->
+          <article class="question qsect2">
+            <!-- question title -->
+            <div class="question-title">
+              <p>What type of payment do you accept?</p>
+              <!-- button -->
+              <button type="button" class="question-btn">
+                <span class="plus-icon">
+                  <i class="far fa-plus-square" data-name="order"></i>
+                </span>
+                <span class="minus-icon">
+                  <i class="far fa-minus-square"></i>
+                </span>
+              </button>
+            </div>
+            <!-- question text -->
+            <div class="question-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+                dolore illo dolores quia nemo doloribus quaerat, magni numquam
+                repellat reprehenderit.
+              </p>
+            </div>
+          </article>
+          <!-- end of single question -->
+
+          <!-- single question -->
+          <article class="question qsect2">
+            <!-- question title -->
+            <div class="question-title">
+              <p>Can I purchase individual items?</p>
+              <!-- button -->
+              <button type="button" class="question-btn">
+                <span class="plus-icon">
+                  <i class="far fa-plus-square" data-name="order"></i>
+                </span>
+                <span class="minus-icon">
+                  <i class="far fa-minus-square"></i>
+                </span>
+              </button>
+            </div>
+            <!-- question text -->
+            <div class="question-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+                dolore illo dolores quia nemo doloribus quaerat, magni numquam
+                repellat reprehenderit.
+              </p>
+            </div>
+          </article>
+          <!-- end of single question -->
+
+          <!-- NEXT SECTION -->
+          <!-- title -->
+          <div class="title">
+            <h2>Shipping</h2>
+          </div>
+          <!-- single question -->
+          <article class="question qsect3" id="shipping">
+            <!-- question title -->
+            <div class="question-title">
+              <p>Where do you ship?</p>
+              <!-- button -->
+              <button type="button" class="question-btn">
+                <span class="plus-icon">
+                  <i class="far fa-plus-square" data-name="ship"></i>
+                </span>
+                <span class="minus-icon">
+                  <i class="far fa-minus-square"></i>
+                </span>
+              </button>
+            </div>
+            <!-- question text -->
+            <div class="question-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+                dolore illo dolores quia nemo doloribus quaerat, magni numquam
+                repellat reprehenderit.
+              </p>
+            </div>
+          </article>
+          <!-- end of single question -->
+          <!-- single question -->
+          <article class="question qsect3">
+            <!-- question title -->
+            <div class="question-title">
+              <p>How much is shipping?</p>
+              <!-- button -->
+              <button type="button" class="question-btn">
+                <span class="plus-icon">
+                  <i class="far fa-plus-square" data-name="ship"></i>
+                </span>
+                <span class="minus-icon">
+                  <i class="far fa-minus-square"></i>
+                </span>
+              </button>
+            </div>
+            <!-- question text -->
+            <div class="question-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+                dolore illo dolores quia nemo doloribus quaerat, magni numquam
+                repellat reprehenderit.
+              </p>
+            </div>
+          </article>
+          <!-- end of single question -->
+
+          <!-- single question -->
+          <article class="question qsect3">
+            <!-- question title -->
+            <div class="question-title">
+              <p>What is your return policy?</p>
+              <!-- button -->
+              <button type="button" class="question-btn">
+                <span class="plus-icon">
+                  <i class="far fa-plus-square" data-name="ship"></i>
+                </span>
+                <span class="minus-icon">
+                  <i class="far fa-minus-square"></i>
+                </span>
+              </button>
+            </div>
+            <!-- question text -->
+            <div class="question-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+                dolore illo dolores quia nemo doloribus quaerat, magni numquam
+                repellat reprehenderit.
+              </p>
+            </div>
+          </article>
+          <!-- end of single question -->
+
+          <!-- NEXT SECTION -->
+          <!-- title -->
+          <div class="title">
+            <h2>Returns</h2>
+          </div>
+          <!-- single question -->
+          <article class="question qsect4" id="returns">
+            <!-- question title -->
+            <div class="question-title">
+              <p>How many days does it take to return?</p>
+              <!-- button -->
+              <button type="button" class="question-btn">
+                <span class="plus-icon">
+                  <i class="far fa-plus-square" data-name="return"></i>
+                </span>
+                <span class="minus-icon">
+                  <i class="far fa-minus-square"></i>
+                </span>
+              </button>
+            </div>
+            <!-- question text -->
+            <div class="question-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+                dolore illo dolores quia nemo doloribus quaerat, magni numquam
+                repellat reprehenderit.
+              </p>
+            </div>
+          </article>
+          <!-- end of single question -->
+          <!-- single question -->
+          <article class="question qsect4">
+            <!-- question title -->
+            <div class="question-title">
+              <p>How many days are the return window?</p>
+              <!-- button -->
+              <button type="button" class="question-btn">
+                <span class="plus-icon">
+                  <i class="far fa-plus-square" data-name="ship"></i>
+                </span>
+                <span class="minus-icon">
+                  <i class="far fa-minus-square"></i>
+                </span>
+              </button>
+            </div>
+            <!-- question text -->
+            <div class="question-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+                dolore illo dolores quia nemo doloribus quaerat, magni numquam
+                repellat reprehenderit.
+              </p>
+            </div>
+          </article>
+          <!-- end of single question -->
+        </div>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

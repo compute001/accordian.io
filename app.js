@@ -89,59 +89,9 @@ window.addEventListener("scroll", function () {
 
 
 
-//Code written in Jquery gave a trouble so activated Javascript code
+//Code written in Jquery gave a trouble so activated Javascript code. Nested loops in the Jquery was messing the program. I am upgrading on it and it should be taken care of soon
 
 
-      // $(document).ready(function () {
-      //   $(".question").each(function () {
-      //     const buttonName = $(this).find(".question-btn").data("name");
-      //     $(this)
-      //       .find(".question-btn")
-      //       .click(function (e) {
-      //         $(".question").not(this).removeClass("show-text");
-      //         const categories = $(".category");
-      //         if (buttonName === "genre") {
-      //           categories.eq(0).addClass("active");
-      //           categories.eq(1).removeClass("active");
-      //           categories.eq(2).removeClass("active");
-      //           categories.eq(3).removeClass("active");
-      //         } else if (buttonName === "order") {
-      //           categories.eq(1).addClass("active");
-      //           categories.eq(0).removeClass("active");
-      //           categories.eq(2).removeClass("active");
-      //           categories.eq(3).removeClass("active");
-      //         } else if (buttonName === "ship") {
-      //           categories.eq(2).addClass("active");
-      //           categories.eq(0).removeClass("active");
-      //           categories.eq(1).removeClass("active");
-      //           categories.eq(3).removeClass("active");
-      //         } else if (buttonName === "return") {
-      //           categories.eq(3).addClass("active");
-      //           categories.eq(0).removeClass("active");
-      //           categories.eq(1).removeClass("active");
-      //           categories.eq(2).removeClass("active");
-      //         }
-      //         $(this).toggleClass("show-text");
-      //       });
-      //   });
-      //   $(".category").each(function () {
-      //     $(this).click(function (e) {
-      //       if ($(this).hasClass("active")) {
-      //         $(this).removeClass("active");
-      //       } else {
-      //         $(".category").removeClass("active");
-      //         $(this).addClass("active");
-      //       }
-      //     });
-      //   });
-      //   $(header).scroll(function () {
-      //     const scrollHeight = $(this).scrollTop();
-      //     const navHeight = $(this).height();
-      //     if (scrollHeight > navHeight) {
-      //       $(this).addClass("fixed-nav");
-      //     } else {
-      //       $(this).removeClass("fixed-nav");
-      //     }
-      //   });
-      // });
+      
+   
  
